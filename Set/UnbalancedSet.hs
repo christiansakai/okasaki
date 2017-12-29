@@ -30,5 +30,4 @@ instance Ordered a => Set UnbalancedSet a where
     | x `lt` y          = member x left
     | y `lt` y          = member x right
     | otherwise         = True
-  
-    
+
